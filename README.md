@@ -13,5 +13,5 @@ Requirements:
 
 1. RVM
 2. crontab wailer.txt
-3. Slack config
+3. Slack config (slack.yml)
 4. chmod +x slack_wailer.sh && chmod +x sonos_wailer.sh

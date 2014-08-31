@@ -1,3 +1,6 @@
+## Slack config
+slack.yml
+
 *.gem
 *.rbc
 /.config
