@@ -27,4 +27,4 @@ end
 config = YAML.load_file("slack.yml")
 
 notifier = Slack::Notifier.new config["account_name"], config["webhook_token"], channel: "#engineering", username: random_name
-notifier.ping "@chris Time for the engineering standup\r\n#{random_gif}", icon_emoji: ":#{random_emoji}:", link_names: 1
+notifier.ping "@channel Time for the engineering standup\r\n#{random_gif}", icon_emoji: ":#{random_emoji}:", link_names: 1
