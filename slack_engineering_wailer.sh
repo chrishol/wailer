@@ -12,4 +12,4 @@ else
 fi
 
 cd ~/code/wailer
-bundle exec ruby slack_wailer.rb
+bundle exec ruby slack_engineering_wailer.rb
