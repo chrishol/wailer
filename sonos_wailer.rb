@@ -18,4 +18,7 @@ else
   upstairs_speaker.play
 end
 
+# Set reasonable volume
+upstairs_speaker.volume = 50
+
 
